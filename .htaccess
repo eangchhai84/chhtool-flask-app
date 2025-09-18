@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ /flask_app.wsgi [QSA,L]
+
+# Set up WSGI
+WSGIScriptAlias / /home/yourusername/public_html/flask_app.wsgi
+WSGIPythonPath /home/yourusername/public_html
