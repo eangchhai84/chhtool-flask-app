@@ -480,4 +480,4 @@ if __name__ == '__main__':
         print("[!] LOW QUALITY MODE - Install ffmpeg for best results")
         print("   Install: https://ffmpeg.org/download")
     print("="*70 + "\n")
-    app.run(debug=False, host='0.0.0.0', port=5000)
+    app.run(debug=False, host='0.0.0.0', port=3000)
